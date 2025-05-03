@@ -38,7 +38,7 @@ interface TomorrowApiResponse {
   };
 }
 
-const API_KEY = "TOMORROW_API_KEY";
+const API_KEY = process.env.EXPO_PUBLIC_TOMORROW_API_KEY;
 const UNITS = "metric";
 
 // --- Main Screen Component ---
