@@ -38,10 +38,7 @@ interface TomorrowApiResponse {
   };
 }
 
-// --- API Key and Constants ---
-// IMPORTANT: Avoid hardcoding API keys in production apps!
-// Consider using environment variables or a config file.
-const API_KEY = "900LhFIKq0VqumhDAuQuQhTk3scI7MPY";
+const API_KEY = "TOMORROW_API_KEY";
 const UNITS = "metric";
 
 // --- Main Screen Component ---
