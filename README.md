@@ -1,4 +1,4 @@
-# Welcome to your Expo Weather App 👋
+# Welcome to Climetrics Mobile Application
 
 This is an [Expo](https://expo.dev) project, initially created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app), that now displays real-time weather information based on user input.
 
