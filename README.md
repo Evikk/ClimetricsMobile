@@ -55,3 +55,16 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Environment Variables
+
+This project requires a Tomorrow.io API key to fetch weather data.
+
+1.  Create a file named `.env` in the root directory of the project.
+2.  Add the following line to the `.env` file, replacing `YOUR_ACTUAL_API_KEY_HERE` with your actual API key:
+
+    ```env
+    EXPO_PUBLIC_TOMORROW_API_KEY=YOUR_ACTUAL_API_KEY_HERE
+    ```
+
+3.  **Important:** Ensure that the `.env` file is listed in your `.gitignore` file to prevent committing your API key to version control.
